@@ -73,6 +73,19 @@ importers:
         version: 1.25.4(pgsql-test@5.13.7)
     publishDirectory: dist
 
+  packages/vet:
+    devDependencies:
+      makage:
+        specifier: ^0.5.1
+        version: 0.5.1
+      pgsql-test:
+        specifier: ^5.9.7
+        version: 5.13.7
+      safegres:
+        specifier: ^1.23.0
+        version: 1.25.4(pgsql-test@5.13.7)
+    publishDirectory: dist
+
 packages:
 
   12factor-env@1.32.1:

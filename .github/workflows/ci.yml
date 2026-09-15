@@ -26,6 +26,7 @@ jobs:
       matrix:
         package:
           - pets
+          - vet
 
     env:
       PGHOST: localhost

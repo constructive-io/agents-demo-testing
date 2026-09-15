@@ -1,0 +1,8 @@
+%syntax-version=1.0.0
+%project=vet
+%uri=vet
+
+schema/vet_public 2017-08-11T08:11:51Z constructive <constructive@5b0c196eeb62> # Adds the vet_public schema
+schema/vet_public/tables/appointments [schema/vet_public pets:schema/pets_public/tables/pets] 2017-08-11T08:11:51Z constructive <constructive@5b0c196eeb62> # Adds the appointments table, one row per vet visit for a pet
+schema/vet_public/functions/book_appointment [schema/vet_public/tables/appointments] 2017-08-11T08:11:51Z constructive <constructive@5b0c196eeb62> # Books an appointment for a pet
+schema/vet_public/views/appointment_schedule [schema/vet_public/tables/appointments pets:schema/pets_public/tables/owners] 2017-08-11T08:11:51Z constructive <constructive@5b0c196eeb62> # Appointments joined with pets and their owners

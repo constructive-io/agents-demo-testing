@@ -1,0 +1,7 @@
+# vet extension
+comment = 'vet extension'
+default_version = '0.0.1'
+module_pathname = '$libdir/vet'
+requires = 'pets'
+relocatable = false
+superuser = false
