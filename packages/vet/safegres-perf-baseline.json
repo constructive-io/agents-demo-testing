@@ -1,4 +1,29 @@
 {
   "version": 1,
-  "findings": []
+  "findings": [
+    {
+      "code": "X8",
+      "schema": "pets_public",
+      "table": "owners",
+      "subject": "created_at"
+    },
+    {
+      "code": "X8",
+      "schema": "pets_public",
+      "table": "pets",
+      "subject": "birth_date"
+    },
+    {
+      "code": "X8",
+      "schema": "pets_public",
+      "table": "pets",
+      "subject": "created_at"
+    },
+    {
+      "code": "X8",
+      "schema": "vet_public",
+      "table": "appointments",
+      "subject": "created_at"
+    }
+  ]
 }
