@@ -1,0 +1,7 @@
+%syntax-version=1.0.0
+%project=pets
+%uri=pets
+
+schema/pets_public 2017-08-11T08:11:51Z constructive <constructive@5b0c196eeb62> # add schema/pets_public
+schema/pets_public/tables/owners [schema/pets_public] 2017-08-11T08:11:51Z constructive <constructive@5b0c196eeb62> # Adds the owners table
+schema/pets_public/tables/pets [schema/pets_public schema/pets_public/tables/owners] 2017-08-11T08:11:51Z constructive <constructive@5b0c196eeb62> # Adds the pets table
