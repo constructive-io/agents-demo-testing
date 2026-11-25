@@ -10,12 +10,11 @@ minimumReleaseAge: 2880
 # Transitive dependencies must come from the registry, not from git or a URL.
 blockExoticSubdeps: true
 allowBuilds:
-  "@launchql/protobufjs": false
   "@parcel/watcher": false
   nx: false
   unrs-resolver: false
 
-# Exempt from the wait: 6 scope glob(s), 73 first-party package(s).
+# Exempt from the wait: 6 scope glob(s), 65 first-party package(s).
 # First-party membership comes from the inventory.
 minimumReleaseAgeExclude:
   - "@constructive-db/*"
@@ -25,8 +24,6 @@ minimumReleaseAgeExclude:
   - "@pgpmjs/*"
   - "@pgsql/*"
   - 12factor-env
-  - "@agentic-kit/ollama"
-  - "@agentic-kit/protocol"
   - "@dataplan/json"
   - "@dataplan/pg"
   - "@graphile-contrib/pg-many-to-many"
@@ -35,7 +32,6 @@ minimumReleaseAgeExclude:
   - appstash
   - confstash
   - csv-to-pg
-  - etag-hash
   - find-and-require-package-json
   - genomic
   - git-changed
@@ -46,7 +42,6 @@ minimumReleaseAgeExclude:
   - graphile-build
   - graphile-build-pg
   - graphile-bulk-mutations
-  - graphile-cache
   - graphile-config
   - graphile-connection-filter
   - graphile-history
@@ -61,7 +56,6 @@ minimumReleaseAgeExclude:
   - graphile-realtime-subscriptions
   - graphile-search
   - graphile-settings
-  - graphile-upload-plugin
   - graphile-utils
   - inflekt
   - inquirerer
@@ -74,7 +68,6 @@ minimumReleaseAgeExclude:
   - pg-cache
   - pg-env
   - pg-introspection
-  - pg-proto-parser
   - pg-query-context
   - pg-seed
   - pg-sql2
@@ -92,8 +85,6 @@ minimumReleaseAgeExclude:
   - ruru
   - ruru-types
   - safegres
-  - strfy-js
   - tamedevil
-  - uuid-hash
   - yamlize
   - yanse

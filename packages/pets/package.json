@@ -25,8 +25,8 @@
   },
   "keywords": [],
   "devDependencies": {
-    "pgsql-test": "^5.9.7",
     "makage": "^0.5.1",
-    "safegres": "^1.23.0"
+    "pgsql-test": "^5.20.16",
+    "safegres": "^1.30.17"
   }
 }
